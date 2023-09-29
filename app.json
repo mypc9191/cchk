@@ -1,1 +1,4 @@
-heroku ps:resize web=hobby
+heroku create cchk
+
+# Set the dyno type
+heroku ps:resize web=hobby --app cchk
