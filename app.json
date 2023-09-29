@@ -1,4 +1,10 @@
-heroku create cchk
-
-# Set the dyno type
-heroku ps:resize web=hobby --app cchk
+{
+  "name": "Small Sharp Tool",
+  "description": "This app does one little thing, and does it well.",
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "standard-1x"
+    }
+  },
+}
