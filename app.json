@@ -1,10 +1,4 @@
 {
   "name": "cchk",
-  "description": "cchk.",
-  "formation": {
-    "web": {
-      "quantity": 1,
-      "size": "standard-1x"
-    }
-  },
+  "description": "cchk."
 }
