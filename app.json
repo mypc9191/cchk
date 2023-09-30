@@ -1,4 +1,9 @@
 {
-  "name": "cchk",
-  "description": "cchk."
+  "name": "Your App's Name",
+  "description": "A description of your app",
+  "buildpacks": [
+    {
+      "url": "heroku/php"
+    }
+  ]
 }
